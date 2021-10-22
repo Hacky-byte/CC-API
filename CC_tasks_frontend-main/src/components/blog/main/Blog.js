@@ -63,7 +63,7 @@ const Blog = () => {
             <Drawer anchor={"top"} open={newPostState} onClose={() => setNewPostState(false)}>
                 <NewPost setNewPostState={setNewPostState} setPosts={setPosts} />
             </Drawer>
-            <SpeedDial ariaLabel="SpeedDial basic example" sx={{ position: 'fixed', right: 10, bottom: 10 }} icon={<SpeedDialIcon />}>
+            <SpeedDial ariaLabel="SpeedDial basic example" sx={{ position: 'fixed', right: 10, bottom: 10 }}  icon={<SpeedDialIcon style={{color:"white"}} />}>
                 <SpeedDialAction key={"write a post"} icon={<CreateRoundedIcon />} tooltipTitle={"write a post"} onClick={() => setNewPostState(true)} />
                 {!user ? <SpeedDialAction key={"Sign in for counsellors"} icon={<VpnKeyRoundedIcon />} tooltipTitle={"Sign in for counsellors"} onClick={() => history.push(SIGN_IN_ROUTE)} /> : null}
                 {!user ? <SpeedDialAction key={"Sign up for counsellors"} icon={<PersonAddRoundedIcon />} tooltipTitle={"Sign up for counsellors"} onClick={() => history.push(SIGN_UP_ROUTE)} /> : null}

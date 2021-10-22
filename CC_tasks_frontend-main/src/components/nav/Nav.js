@@ -38,7 +38,7 @@ const Nav = () => {
     const classes = useStyles();
 
     return (
-        <AppBar style={{backgroundColor : "#32382a"}} position="static">
+        <AppBar style={{backgroundColor : "#32382a"}} position="static" id="navbar">
             <CssBaseline />
             <Toolbar>
                 <h3 variant="h4" className={classes.logo}>
