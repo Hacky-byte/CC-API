@@ -45,7 +45,7 @@ const Nav = () => {
                     <a href="/" style={{color:"white", textDecoration: "none"}}>Home</a>
                 </h3>
                 <div className={classes.navas}>
-                    <a to="#" className={classes.link}>
+                    <a href="#" className={classes.link}>
                     <DropdownButton  id="options" title="Services">
                             <Dropdown.Item href="#/action-1">Tele-Consultation</Dropdown.Item>
                             <Dropdown.Item href="#/action-2">Individual Consultation</Dropdown.Item>
@@ -54,6 +54,9 @@ const Nav = () => {
                             <Dropdown.Item href="#/action-3">Psychiatric Services</Dropdown.Item>
                             <Dropdown.Item href="#/action-3">After Our Service</Dropdown.Item>
                         </DropdownButton>
+                    </a>
+                    <a href="/appointment" className={classes.link}>
+                        Appointment
                     </a>
                     <a to="/reachus" className={classes.link}>
                         Reach Us
