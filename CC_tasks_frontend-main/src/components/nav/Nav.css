@@ -1,0 +1,18 @@
+#loader{
+  background-color: #32382a;
+}
+
+#dropdownbtn .e-btn-icon.e-dropdownbtn-preview {
+  background-color: #32382a;
+  height: 18px;
+  width: 18px;
+  margin-top: 0; 
+}
+
+#options{
+  border: none;
+  background-color: #32382a;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
